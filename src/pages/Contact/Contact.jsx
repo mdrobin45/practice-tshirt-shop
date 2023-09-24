@@ -1,4 +1,7 @@
+import useTitle from "../../hooks/useTitle";
+
 const Contact = () => {
+   useTitle("Contact");
    return (
       <form className="w-2/4 shadow-md p-6 rounded-md mx-auto my-10 border">
          <div className="mb-6">
